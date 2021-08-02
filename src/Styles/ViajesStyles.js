@@ -1,0 +1,72 @@
+import { StyleSheet } from "react-native";
+import { textAlign, width } from "styled-system";
+
+const viajesStyles = StyleSheet.create({
+    animatedBox:{
+        height:'100%',
+        flex:1,
+        backgroundColor:"#0EADFF",
+        padding:10
+    },
+    menu:{
+        height:'10%',
+        display:'flex',
+        justifyContent:'flex-start',
+        backgroundColor:'#0EADFF'
+    },
+    items:{
+        height:'80%',
+        marginLeft:10,
+        display:'flex',
+        justifyContent:'flex-end',
+        alignItems:'flex-start'
+    },
+    homecontainer:{
+        flex:1,
+        backgroundColor:'#f5f5f5'
+    },
+    menu:{
+        height:'10%',
+        display:'flex',
+        justifyContent:'flex-start',
+        backgroundColor:'#0EADFF'
+    },
+    box:{
+        backgroundColor:'#FAFF95',
+        borderRadius:10,
+        width:'100%'
+    },
+    flat:{
+        width:'100%',
+        display:'flex',
+        justifyContent:'center',
+        alignItems:'center'
+    },
+    title:{
+        marginLeft:10,
+        fontWeight:'bold',
+        fontSize:18
+    },
+    header:{
+        fontSize:20,
+        textAlign:'center',
+        marginTop:'10%',
+        marginBottom:'10%'
+    },
+    truck:{
+        display:'flex',
+        flexDirection:'row',
+    },
+    bar:{
+        display:'flex',
+        flexDirection:'row',
+        justifyContent:'center',
+        alignItems:'center'
+    },
+    t:{
+        marginLeft:10,
+        fontSize:15
+    }
+});
+
+export {viajesStyles};
